@@ -122,7 +122,7 @@ begin
     -- subtracting the amount from the sender's account 
     update "CHAMBRES" 
     set prix = prix - 100
-    where lits > 1;
+    where lits > 2;
 end;$updatePrice$
 
 
